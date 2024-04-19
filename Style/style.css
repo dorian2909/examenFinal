@@ -1,0 +1,45 @@
+body{
+    background-color: #F0FFF0;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+}
+.form{
+    display: grid;
+}
+
+input{
+    width: 100px;
+    margin: 5px;
+}
+
+table{
+    display: flex;
+    
+    border-collapse: collapse;
+    width: 100%;
+}
+
+
+th, tr, td {
+    border: 1px solid black; /* borde negro */
+    padding: 8px;
+    text-align: left;
+}
+.btn {
+    
+    border: none; 
+    color: black; 
+    padding: 14px 28px; 
+    cursor: pointer; 
+    border-radius: 5px; 
+    
+    margin-left: 40px;
+}
+.acep {background-color: white; border: 2px solid #007bff;} 
+.acep:hover {background: #0b7dda; color: white;}
+.can {background-color: white; border: 2px solid #F00707;} 
+.can:hover {background: #F00707; color: white;}
